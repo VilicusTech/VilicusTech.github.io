@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
+    background-color: black;
 }
 
 .header{
@@ -36,6 +37,7 @@
 
 span{
     color: orangered;
+    background-color: transparent;
 }
 
 .navbar a{
@@ -166,8 +168,8 @@ span{
     margin: 2em 0 3em;
 }
 
-
-.aboutme-content{
+@media only screen and (min-width: 600px) {
+    .aboutme-content{
     width: 100%;
     min-height: 100vh;
     background: rgb(0, 0, 0);
@@ -188,6 +190,33 @@ span{
     font-size: 18px;
     margin: 25px 0 30px;
     color: grey;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutme-content{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12%;
+}
+.aboutme-content{
+    max-width: 100%;
+}
+.aboutme-content h1{
+    text-align: center;
+    font-size: 62px;
+    line-height: 1.2;
+    color: white;
+}
+.aboutme-content p{
+    padding-top: 40px;
+    font-size: 18px;
+    margin: 25px 0 30px;
+    color: grey;
+}
 }
 
 .exp1{
@@ -224,16 +253,19 @@ span{
 }
 .exp2-content{
     max-width: 100%;
+    background-color: rgb(5, 5, 5);
 }
 .exp2-content h1{
     font-size: 62px;
     line-height: 1.2;
     color: white;
+    background-color: rgb(5, 5, 5);
 }
 .exp2-content p{
     font-size: 18px;
     margin: 25px 0 30px;
     color: grey;
+    background-color: rgb(5, 5, 5);
 }
 
 
