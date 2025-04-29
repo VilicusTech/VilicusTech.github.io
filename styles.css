@@ -28,7 +28,7 @@ body {
     text-align: center;
   }
   
-  #about, #projects, #skills, #contact, #school, #work {
+  #about, #projects, #skills, #contact, #school, #rev {
     background-color: #1e1e1e;
     margin: 20px auto;
     border-radius: 10px;
